@@ -553,6 +553,16 @@ const data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
       }
     ]
+  },
+  {
+    'forename': 'Hans-Georg',
+    'name': 'Maaßen',
+    'additions': [
+      {
+        'text': 'der Kinder für "lebende Zeitbomben" hält',
+        'src': 'http://www.sueddeutsche.de/politik/exklusiv-behoerden-holen-erstmals-kind-von-is-kaempfern-nach-deutschland-1.3849960'
+      }
+    ]
   }
 ];
 
