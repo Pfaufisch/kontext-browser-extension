@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Kontext",
   "description": "Eine Browser-Extension, die Zusatzinformationen zu bestimmten Politikern in Webseiten einfügt.",
-  "version": "2.0",
+  "version": "2.2",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -24,7 +24,7 @@
   ],
   "applications": {
     "gecko": {
-      "id": "hi@kontext.fyi"
+      "id": "{5917ded4-5f46-4a62-94b6-8802b982012c}"
     }
   }
 }

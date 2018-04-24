@@ -1,12 +1,12 @@
 const defaultSettings = {
   highlight: true,
-  amount: 5
+  amount: "5"
 };
 
 const storageAPI = (() => {
-  if (window.chrome && chrome.storage) return chrome.storage;
+  if (chrome && chrome.storage) return chrome.storage;
   if (window.storage) return window.storage;
-  if (window.browser && browser.storage) return browser.storage;
+  if (browser && browser.storage) return browser.storage;
   return browser.extension.storage;
 })();
 
